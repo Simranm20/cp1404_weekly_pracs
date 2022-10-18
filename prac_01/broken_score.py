@@ -17,4 +17,3 @@ else:
         print("Passable")
     else:
         print("Bad")
-
