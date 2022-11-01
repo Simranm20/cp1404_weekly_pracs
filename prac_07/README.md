@@ -1,5 +1,5 @@
 # Weekly practicals for CP1404
-## Simran Mulchandani
+## Simran Kishin Mulchandani
 Good Python coding guide: 
 - Indentation is important
 - Meaningful and consistent names
