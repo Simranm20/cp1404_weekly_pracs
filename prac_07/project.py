@@ -10,8 +10,8 @@ class Project:
 
     def __str__(self):
         """Return string representation of a project."""
-        return f"{self.name}, start: {self.start_date} , priority {self.priority}, estimate: ${self.estimate:.2f}, \
-              completion:  {self.completion} "
+        return f"{self.name}, start: {self.start_date} , priority {self.priority}, estimate: ${self.estimate:.2f}, " \
+               f"completion:  {self.completion} "
 
 
 def main():
