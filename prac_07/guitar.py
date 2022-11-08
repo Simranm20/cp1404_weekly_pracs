@@ -1,6 +1,5 @@
 class Guitar:
     """Represent information about a guitar."""
-
     def __init__(self, name, year, cost):
         self.name = name
         self.year = year
