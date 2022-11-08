@@ -11,6 +11,8 @@ def load_file(csv_file):
     in_file = open(CSV_FILE, 'r')
 
     # File format is like: name, year, cost
+
+    # All other lines are language data
     for line in in_file:
         # Strip newline from end and split it into parts (CSV)
         parts = line.strip().split(',')
@@ -68,7 +70,6 @@ def input_positive_float(prompt):
     return input_num
 
 
-
 def save_guitars(csv_file, guitars):
     try:
         outfile = open(csv_file, 'w')
@@ -85,7 +86,7 @@ def main():
     guitars = load_file(CSV_FILE)
     for guitar in guitars:
         print(guitar)
-        # sort by year
+    # sort by year
     guitars.sort()
     print()
     print('Sort by year:')
